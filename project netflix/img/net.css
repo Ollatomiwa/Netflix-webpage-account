@@ -1,0 +1,130 @@
+body{
+
+   box-sizing: initial;
+    background-color: rgba(0, 0, 0, 0.933);
+    height: 100vh;
+    width: 100%;
+    color: rgb(245, 242, 242);
+    font-family: serif;
+}
+.background{
+    height: 100vh;
+    background-image: url(image/netflix-background.jpeg);
+    background-color: rgba(19, 19, 19, 0.862);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.backgrounds{
+    height: 100vh;
+    background-image: url(image/netflix.jpg);
+    background-color: rgba(19, 19, 19, 0.862);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h5{
+    height: 50px;
+    background-color: red;
+    color: white;
+    width: 200px;
+    font-size: 40px;
+    text-align: center;
+    position: absolute;right: 10px;top:-50px;
+    text-decoration: none;
+
+}
+
+.container{
+    background-color: rgba(12, 12, 12, 0.667);
+    height:350px;
+    width:70%;
+    text-align: center;
+    margin: auto;
+    margin-top: 90px;
+
+}
+h2{
+    font-size: 40px;
+    font-family: serif;
+    padding-top: 40px;
+
+}
+h3{
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+}
+aside a {
+    
+    color: whitesmoke;
+   
+    font-size: 30px;
+    position: absolute;
+    text-decoration: none;
+    
+}
+p{
+    font-size: 30px;
+    font-family: serif;
+    color: white;
+    padding-left: 10px;
+    padding-right: 90px;
+    margin-top: 20px;
+
+}
+@media only screen and (min-width:480px){
+    button{
+    height: 55px;
+    width: 50%;
+    background-color: rgb(217, 26, 26);
+    border: 1px solid rgb(229, 20, 20);
+    border-radius: 5px;
+    font-size: 21px;
+    color: rgb(245, 242, 242);
+    margin: 10px;
+
+    }
+}
+.contain{
+    background-color: rgba(12, 12, 12, 0.667);
+    height:500px;
+    width:70%;
+    text-align: center;
+    margin: auto;
+    margin-top:-20px;
+
+}
+h4{
+    font-size: 40px;
+    padding-top: 40px;
+}
+article input{
+    
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-right: 400px;
+    margin: -40px;
+    background-color: rgba(0, 0, 0, 0.437);
+    color: white;
+}
+main input{
+    
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-right: 400px;
+    margin: 60px;
+    background-color: rgba(0, 0, 0, 0.437);
+    color: white; 
+}
+input.checkbox {
+    width: 50px;
+    height: 50px;
+    position: absolute; left: 170px;
+}
+h6{
+    font-size: 30px;
+    margin: 20px;
+    position: absolute; left: 220px;
+}
